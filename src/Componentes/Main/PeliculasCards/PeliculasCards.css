@@ -1,0 +1,17 @@
+.PeliculaCards {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.imagenPelicula{
+    border-radius: 10px;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 560px) {
+    .imagenPelicula{
+        width: 100%;
+        height: auto;
+    }
+}
